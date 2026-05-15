@@ -1,1 +1,7 @@
-{"name":"weiin","buildCommand":"","outputDirectory":"."}
+{
+  "name": "weiin",
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
+  ]
+}
